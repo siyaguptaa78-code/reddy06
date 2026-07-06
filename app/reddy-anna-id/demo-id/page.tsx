@@ -1,7 +1,14 @@
 import React from "react";
+import type { Metadata } from "next";
 import { CONFIG } from "@/utils/config";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
+
+export const metadata: Metadata = {
+  title: "Free Demo ID | Try Reddy Anna Book Risk-Free",
+  description: "Get a free Reddy Anna Demo ID and explore cricket betting and live casino risk-free.",
+  alternates: { canonical: "https://reddybookies.com/reddy-anna-id/demo-id" },
+};
 
 export default function DemoIdPage() {
   return (

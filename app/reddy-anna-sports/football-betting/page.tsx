@@ -1,7 +1,14 @@
 import React from "react";
+import type { Metadata } from "next";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
 import { MatchList } from "@/components/MatchList";
+
+export const metadata: Metadata = {
+  title: "Football Betting Online | Live Odds | Reddy Anna Book",
+  description: "Bet on Premier League and international football with best live odds on Reddy Anna Book.",
+  alternates: { canonical: "https://reddybookies.com/reddy-anna-sports/football-betting" },
+};
 
 export default function FootballBettingPage() {
   return (

@@ -1,5 +1,12 @@
 import React from "react";
+import type { Metadata } from "next";
 import { Sidebar } from "@/components/Sidebar";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | Reddy Anna Book",
+  description: "Read the Reddy Anna Book privacy policy on how we collect and protect your personal information.",
+  alternates: { canonical: "https://reddybookies.com/privacy-policy" },
+};
 
 export default function PrivacyPolicyPage() {
   return (

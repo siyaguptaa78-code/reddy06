@@ -1,6 +1,13 @@
 import React from "react";
+import type { Metadata } from "next";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
+
+export const metadata: Metadata = {
+  title: "About Us | Reddy Anna Book",
+  description: "Learn about Reddy Anna Book - India's trusted cricket betting ID platform. Instant ID delivery and 24/7 WhatsApp support.",
+  alternates: { canonical: "https://reddybookies.com/about-us" },
+};
 
 export default function AboutUsPage() {
   return (

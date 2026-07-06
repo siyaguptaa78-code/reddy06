@@ -1,5 +1,12 @@
 import React from "react";
+import type { Metadata } from "next";
 import { Sidebar } from "@/components/Sidebar";
+
+export const metadata: Metadata = {
+  title: "Terms and Conditions | Reddy Anna Book",
+  description: "Read the Reddy Anna Book terms and conditions governing use of our official cricket betting platform.",
+  alternates: { canonical: "https://reddybookies.com/terms-and-conditions" },
+};
 
 export default function TermsAndConditionsPage() {
   return (

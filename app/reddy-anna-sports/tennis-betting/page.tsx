@@ -1,7 +1,14 @@
 import React from "react";
+import type { Metadata } from "next";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
 import { MatchList } from "@/components/MatchList";
+
+export const metadata: Metadata = {
+  title: "Tennis Betting Online | Live Grand Slam Odds | Reddy Anna Book",
+  description: "Bet on Wimbledon, US Open and ATP matches with Reddy Anna Book.",
+  alternates: { canonical: "https://reddybookies.com/reddy-anna-sports/tennis-betting" },
+};
 
 export default function TennisBettingPage() {
   return (

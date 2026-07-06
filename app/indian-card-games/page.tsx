@@ -1,6 +1,13 @@
 import React from "react";
+import type { Metadata } from "next";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
+
+export const metadata: Metadata = {
+  title: "Indian Card Games | Teen Patti and Andar Bahar | Reddy Anna Book",
+  description: "Play Teen Patti, Andar Bahar and more Indian card games on Reddy Anna Book with live dealers.",
+  alternates: { canonical: "https://reddybookies.com/indian-card-games" },
+};
 
 export default function IndianCardGamesPage() {
   return (

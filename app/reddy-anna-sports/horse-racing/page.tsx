@@ -1,6 +1,13 @@
 import React from "react";
+import type { Metadata } from "next";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
+
+export const metadata: Metadata = {
+  title: "Horse Racing Betting | Live Odds | Reddy Anna Book",
+  description: "Bet on live horse racing events with competitive odds on Reddy Anna Book.",
+  alternates: { canonical: "https://reddybookies.com/reddy-anna-sports/horse-racing" },
+};
 
 export default function HorseRacingPage() {
   return (

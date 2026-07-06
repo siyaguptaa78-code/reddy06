@@ -1,6 +1,12 @@
 import React from "react";
+import type { Metadata } from "next";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
+
+export const metadata: Metadata = {
+  title: "Login | Reddy Anna Book",
+  robots: { index: false, follow: false },
+};
 
 export default function LoginPage() {
   return (

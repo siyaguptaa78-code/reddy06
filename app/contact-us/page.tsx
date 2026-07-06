@@ -1,7 +1,14 @@
 import React from "react";
+import type { Metadata } from "next";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
 import { CONFIG } from "@/utils/config";
+
+export const metadata: Metadata = {
+  title: "Contact Us | 24/7 WhatsApp Support | Reddy Anna Book",
+  description: "Get instant help from Reddy Anna Book support 24/7 via WhatsApp for ID creation, deposits and betting queries.",
+  alternates: { canonical: "https://reddybookies.com/contact-us" },
+};
 
 export default function ContactUsPage() {
   return (

@@ -6,9 +6,11 @@ import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://reddybookies.com"),
+  applicationName: "Reddy Anna Book",
   title: "Reddy Anna | Reddy Anna Book | Best Betting Id Provider",
   description:
-    "Get your Reddy Anna Book ID instantly. Enjoy cricket IPL betting, casino games, & secure platform. Join India’s trusted betting hub today",
+    "Get your Reddy Anna Book ID instantly. Enjoy cricket IPL betting, casino games, & secure platform. Join India's trusted betting hub today",
   keywords: [
     "Reddy Anna",
     "Reddy Anna Book",
@@ -19,12 +21,17 @@ export const metadata: Metadata = {
     "Best Betting Id Provider"
   ],
   authors: [{ name: "Reddy Anna Book" }],
+  creator: "Reddy Anna Book",
+  publisher: "Reddy Anna Book",
+  alternates: {
+    canonical: "https://reddybookies.com",
+  },
   openGraph: {
     title: "Reddy Anna | Reddy Anna Book | Best Betting Id Provider",
     description:
-      "Get your Reddy Anna Book ID instantly. Enjoy cricket IPL betting, casino games, & secure platform. Join India’s trusted betting hub today",
-    url: "https://reddygreenbook.in",
-    siteName: "reddyanna",
+      "Get your Reddy Anna Book ID instantly. Enjoy cricket IPL betting, casino games, & secure platform. Join India's trusted betting hub today",
+    url: "https://reddybookies.com",
+    siteName: "Reddy Anna Book",
     images: [
       {
         url: "https://reddybookwinin.in/wp-content/uploads/elementor/thumbs/cricket-bg-rlghoi9i0hsj2n8qphq7tivs3mol4s3iin7qqytzxc.webp",
@@ -40,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Reddy Anna | Reddy Anna Book | Best Betting Id Provider",
     description:
-      "Get your Reddy Anna Book ID instantly. Enjoy cricket IPL betting, casino games, & secure platform. Join India’s trusted betting hub today",
+      "Get your Reddy Anna Book ID instantly. Enjoy cricket IPL betting, casino games, & secure platform. Join India's trusted betting hub today",
     images: [
       "https://reddybookwinin.in/wp-content/uploads/elementor/thumbs/cricket-bg-rlghoi9i0hsj2n8qphq7tivs3mol4s3iin7qqytzxc.webp"
     ]

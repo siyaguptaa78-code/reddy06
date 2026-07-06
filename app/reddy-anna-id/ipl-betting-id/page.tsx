@@ -1,6 +1,13 @@
 import React from "react";
+import type { Metadata } from "next";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
+
+export const metadata: Metadata = {
+  title: "IPL Betting ID | Official Reddy Anna IPL ID",
+  description: "Get your official Reddy Anna IPL Betting ID and bet on every IPL match live.",
+  alternates: { canonical: "https://reddybookies.com/reddy-anna-id/ipl-betting-id" },
+};
 
 export default function IplBettingIdPage() {
   return (

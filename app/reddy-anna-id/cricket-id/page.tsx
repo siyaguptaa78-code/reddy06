@@ -1,6 +1,13 @@
 import React from "react";
+import type { Metadata } from "next";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
+
+export const metadata: Metadata = {
+  title: "Cricket Betting ID | Official Reddy Anna Cricket ID | Instant Delivery",
+  description: "Get your official Reddy Anna Cricket Betting ID instantly via WhatsApp.",
+  alternates: { canonical: "https://reddybookies.com/reddy-anna-id/cricket-id" },
+};
 
 export default function CricketIdPage() {
   return (

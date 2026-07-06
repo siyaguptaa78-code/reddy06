@@ -1,7 +1,14 @@
 import React from "react";
+import type { Metadata } from "next";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
 import { MatchList } from "@/components/MatchList";
+
+export const metadata: Metadata = {
+  title: "Cricket Betting Online | Live IPL Odds | Reddy Anna Book",
+  description: "Bet on live cricket with best IPL odds and instant payouts on Reddy Anna Book.",
+  alternates: { canonical: "https://reddybookies.com/reddy-anna-sports/cricket-betting" },
+};
 
 export default function CricketBettingPage() {
   return (
