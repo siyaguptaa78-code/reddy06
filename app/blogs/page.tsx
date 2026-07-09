@@ -36,7 +36,7 @@ export default function BlogsPage() {
                   date: "July 8, 2026",
                   desc: "CPL 2026 runs 7 August–20 September with seven teams for the first time. Jamaica Kingsmen's debut, Barbados Tridents' rebrand, full draft details, squads, schedule, and how to watch.",
                   href: "/cpl-2026-caribbean-premier-league/",
-                  buttonText: "Show More"
+                  buttonText: "Read Full Article"
                 },
                 {
                   title: "How to Wager on IPL 2026 Live Sessions",
