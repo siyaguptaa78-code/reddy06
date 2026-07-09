@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
 import { CONFIG } from "@/utils/config";
@@ -30,6 +31,13 @@ export default function BlogsPage() {
           <section className="w-full flex flex-col gap-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
+                {
+                  title: "CPL 2026: Schedule, Teams, Squads & Everything Else To Know About This Caribbean Premier League Season",
+                  date: "July 8, 2026",
+                  desc: "CPL 2026 runs 7 August–20 September with seven teams for the first time. Jamaica Kingsmen's debut, Barbados Tridents' rebrand, full draft details, squads, schedule, and how to watch.",
+                  href: "/cpl-2026-caribbean-premier-league/",
+                  buttonText: "Show More"
+                },
                 {
                   title: "How to Wager on IPL 2026 Live Sessions",
                   date: "May 24, 2026",
@@ -64,14 +72,23 @@ export default function BlogsPage() {
                   <p className="text-gray-300 text-xs md:text-sm leading-relaxed">
                     {blog.desc}
                   </p>
-                  <a
-                    href={CONFIG.whatsappUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#AEEA00] hover:text-[#00C853] text-xs font-black self-start mt-2 border-b border-dashed border-[#AEEA00]/50 hover:border-[#00C853]/50 pb-0.5"
-                  >
-                    Read Full Article
-                  </a>
+                  {blog.href ? (
+                    <Link
+                      href={blog.href}
+                      className="text-[#AEEA00] hover:text-[#00C853] text-xs font-black self-start mt-2 border-b border-dashed border-[#AEEA00]/50 hover:border-[#00C853]/50 pb-0.5"
+                    >
+                      {blog.buttonText || "Read Full Article"}
+                    </Link>
+                  ) : (
+                    <a
+                      href={CONFIG.whatsappUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[#AEEA00] hover:text-[#00C853] text-xs font-black self-start mt-2 border-b border-dashed border-[#AEEA00]/50 hover:border-[#00C853]/50 pb-0.5"
+                    >
+                      Read Full Article
+                    </a>
+                  )}
                 </div>
               ))}
             </div>
