@@ -102,13 +102,13 @@ export const Header: React.FC = () => {
         {/* Desktop CTA Action Panel */}
         <div className="hidden lg:flex items-center gap-3.5">
           <Link
-            href="/register"
+            href="https://www.Gabbar247.vip"
             className="border border-white hover:border-[#AEEA00] text-white hover:text-black hover:bg-gradient-to-r hover:from-[#AEEA00] hover:to-[#00C853] font-bold text-xs py-2 px-5 rounded-full transition-all duration-300"
           >
             Register
           </Link>
           <Link
-            href="/login"
+            href="https://www.Gabbar247.vip"
             className="bg-gradient-to-r from-[#AEEA00] to-[#00C853] text-black font-extrabold text-xs py-2 px-6 rounded-full hover:shadow-[0_0_15px_rgba(240,144,26,0.3)] transition-all duration-300"
           >
             Login
@@ -222,14 +222,14 @@ export const Header: React.FC = () => {
           {/* CTA Buttons in Mobile Dropdown */}
           <div className="flex flex-col gap-3 mt-2 border-t border-[#00C853]/5 pt-4">
             <Link
-              href="/register"
+              href="https://www.Gabbar247.vip"
               onClick={() => setMobileMenuOpen(false)}
               className="w-full text-center border border-white hover:border-[#AEEA00] text-white hover:text-black hover:bg-gradient-to-r hover:from-[#AEEA00] hover:to-[#00C853] font-bold text-xs py-2.5 rounded-full transition-all"
             >
               Register
             </Link>
             <Link
-              href="/login"
+              href="https://www.Gabbar247.vip"
               onClick={() => setMobileMenuOpen(false)}
               className="w-full text-center bg-gradient-to-r from-[#AEEA00] to-[#00C853] text-black font-extrabold text-xs py-2.5 rounded-full"
             >

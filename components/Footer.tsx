@@ -12,7 +12,10 @@ export const Footer: React.FC = () => {
             About Reddy Anna Book
           </h4>
           <p className="text-gray-300 text-sm leading-relaxed">
-            Since 2010, Reddy Anna Book has provided online betting service in India. Join our trusted 200+ branches network and Get authorised ID. Create Reddy Anna Online Book id in 2 minutes. No KYC, no documentation, instant approval.
+            Since 2010, Reddy Anna Book has provided online betting service in
+            India. Join our trusted 200+ branches network and Get authorised ID.
+            Create Reddy Anna Online Book id in 2 minutes. No KYC, no
+            documentation, instant approval.
           </p>
         </div>
 
@@ -27,8 +30,11 @@ export const Footer: React.FC = () => {
               { label: "Reddy Anna Online Book", href: "/" },
               { label: "Reddy Book", href: "/" },
               { label: "Reddy Anna Booking", href: "/" },
-              { label: "Reddy Anna Book Login", href: "/login" },
-              { label: "Reddy Anna Club", href: "/" }
+              {
+                label: "Reddy Anna Book Login",
+                href: "https://www.Gabbar247.vip",
+              },
+              { label: "Reddy Anna Club", href: "/" },
             ].map((link, idx) => (
               <li key={idx}>
                 <Link
@@ -53,7 +59,7 @@ export const Footer: React.FC = () => {
               { label: "About Us", href: "/about-us" },
               { label: "Contact US", href: "/contact-us" },
               { label: "Privacy Policy", href: "/privacy-policy" },
-              { label: "Terms and Conditions", href: "/terms-and-conditions" }
+              { label: "Terms and Conditions", href: "/terms-and-conditions" },
             ].map((link, idx) => (
               <li key={idx}>
                 <Link
@@ -82,9 +88,13 @@ export const Footer: React.FC = () => {
 
       {/* Copyright Bottom */}
       <div className="max-w-7xl mx-auto mt-10 pt-6 border-t border-[#00C853]/5 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500 font-semibold">
-        <p>© {new Date().getFullYear()} Reddy Anna Book. All Rights Reserved.</p>
+        <p>
+          © {new Date().getFullYear()} Reddy Anna Book. All Rights Reserved.
+        </p>
         <p className="max-w-md text-center md:text-right leading-normal text-[10px]">
-          Warning: Online betting and gambling carry a financial risk. Play responsibly and only if you are 18+ years of age. Certified secure connection under SSL encryption.
+          Warning: Online betting and gambling carry a financial risk. Play
+          responsibly and only if you are 18+ years of age. Certified secure
+          connection under SSL encryption.
         </p>
       </div>
     </footer>
