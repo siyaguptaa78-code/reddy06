@@ -81,6 +81,7 @@ export default function RootLayout({
   return (
     <html lang="en-US">
       <head>
+        <meta name="google-site-verification" content="BVhrPu1_IgUzq9a4iFZa_D9WN9OnlrLXgyflYbV-vpo" />
         <link
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
           rel="stylesheet"
