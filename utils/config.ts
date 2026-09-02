@@ -151,36 +151,44 @@ export const CONFIG = {
 
   faqs: [
     {
-      question: "What is a Reddy Anna ID?",
-      answer: "A Reddy Anna ID is your verified personal account that gives you access to cricket betting, sports wagering, and live casino games on the Reddy Anna platform. It is created instantly via WhatsApp and is linked to your personal wallet for deposits and withdrawals."
+      question: "What is Reddy Anna?",
+      answer: "Reddy Anna is the brand or website referenced on this domain. Check the site's current pages and terms for the latest information."
     },
     {
-      question: "How do I create a Reddy Anna ID?",
-      answer: "Visit reddygreenbook.in, click the WhatsApp button, and contact our official agent. Share your preferred username and password. Your ID is created and delivered in under 60 seconds."
+      question: "How does a Reddy Anna ID work?",
+      answer: "An account ID is generally used to identify a user account. Refer to Reddy Anna's current account instructions and terms for the exact process."
     },
     {
-      question: "Is Reddy Anna safe and legitimate?",
-      answer: "Yes. Reddy Anna has operated safely since 2010, serving millions of verified users across India. All transactions are encrypted, all payments are processed through secure Indian banking channels, and all payouts are guaranteed. reddygreenbook.in is the only official Reddy Anna domain — always verify you are on the right site."
+      question: "How can I access the Reddy Anna website?",
+      answer: "Use the site's current official URL and verify the domain before entering any account information. Follow the access instructions published on the site."
     },
     {
-      question: "What payment methods does Reddy Anna accept?",
-      answer: "We accept all major Indian payment methods: UPI (PhonePe, Google Pay, BHIM), Paytm, Paytm Wallet, Net Banking, NEFT, and IMPS. Deposits are instant. Withdrawals are processed within 2-4 hours."
+      question: "What sports are available on Reddy Anna?",
+      answer: "Available sports can change. Check the current sports or betting section on the website for the latest list and availability."
     },
     {
-      question: "Can I bet on IPL using Reddy Anna?",
-      answer: "Absolutely. IPL betting is one of Reddy Anna's core offerings. We provide live, real-time odds on every IPL match with ball-by-ball markets, session betting, player performance bets, and full pre-match markets. Your Reddy Anna ID gives you instant access to all IPL 2026 markets."
+      question: "Does Reddy Anna provide live sports information?",
+      answer: "Check the site's current sports section for any live-event information and the terms that apply to its use."
     },
     {
-      question: "Does Reddy Anna offer casino games?",
-      answer: "Yes. reddygreenbook.in offers a comprehensive live casino section featuring Teen Patti, Andar Bahar, Roulette, Blackjack, Baccarat, Poker, Dragon Tiger, and hundreds of slots. All games run 24/7 with live dealers and certified fair-play mechanisms."
+      question: "How can I get help with my Reddy Anna account?",
+      answer: "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts."
     },
     {
-      question: "How can I contact Reddy Anna support?",
-      answer: "Our support team is available 24/7 via WhatsApp and Telegram. Visit reddygreenbook.in and click the WhatsApp icon for instant connection to our support team. Average response time is under 2 minutes, even during live matches."
+      question: "What payment options are supported?",
+      answer: "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts."
     },
     {
-      question: "What is a Reddy Anna Demo ID?",
-      answer: "A Demo ID is a free practice account that lets you explore the Reddy Anna platform, understand how betting markets work, and place practice bets without using real money. Contact our agent via WhatsApp and request a Demo ID — it is completely free."
+      question: "How can I check Reddy Anna login information?",
+      answer: "Use the official domain and follow the current login or access instructions. If access fails, use the site's published support channel."
+    },
+    {
+      question: "What should I do if I have a problem with my account?",
+      answer: "Refer to Reddy Anna's current website information and terms for the most accurate answer."
+    },
+    {
+      question: "Where can I find the latest Reddy Anna updates?",
+      answer: "Refer to Reddy Anna's current website information and terms for the most accurate answer."
     }
   ]
 };
