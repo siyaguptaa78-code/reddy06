@@ -32,6 +32,13 @@ export default function BlogsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
                 {
+                  title: "India Football Team Faces Major September Challenge as Panama and Brazil Friendlies Loom",
+                  date: "September 4, 2026",
+                  desc: "Indian football is heading towards one of its most interesting international windows of the year, with the national team preparing for a demanding sequence of fixtures against Panama and Brazil.",
+                  href: "/india-football-panama-brazil-friendlies/",
+                  buttonText: "Read Full Article"
+                },
+                {
                   title: "CPL 2026: Schedule, Teams, Squads & Everything Else To Know About This Caribbean Premier League Season",
                   date: "July 8, 2026",
                   desc: "CPL 2026 runs 7 August–20 September with seven teams for the first time. Jamaica Kingsmen's debut, Barbados Tridents' rebrand, full draft details, squads, schedule, and how to watch.",
