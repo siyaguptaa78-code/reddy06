@@ -27,7 +27,7 @@ export default function RegisterPage() {
               Create Reddy Anna ID Instantly
             </h1>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Skip lengthy registration forms, KYC validations, and sign-up waitlists. Receive your verified betting ID on WhatsApp in under 60 seconds.
+              Skip lengthy registration forms, KYC validations, and sign-up waitlists. Receive your verified ID on WhatsApp in under 60 seconds.
             </p>
             <div className="bg-[#05080f] p-4 rounded-xl border border-[#00C853]/5 text-xs text-gray-400 font-semibold leading-relaxed w-full">
               Provide our 24/7 active WhatsApp agent with your preferred username and secure password, and your account will be instantly created!

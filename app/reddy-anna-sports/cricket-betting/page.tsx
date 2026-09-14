@@ -5,12 +5,12 @@ import { ConicButton } from "@/components/ConicButton";
 import { MatchList } from "@/components/MatchList";
 
 export const metadata: Metadata = {
-  title: "Cricket Betting Online | Live IPL Odds | Reddy Anna Book",
+  title: "Cricket Online | Live IPL Odds | Reddy Anna Book",
   description: "Bet on live cricket with best IPL odds and instant payouts on Reddy Anna Book.",
   alternates: { canonical: "https://reddybookies.com/reddy-anna-sports/cricket-betting" },
 };
 
-export default function CricketBettingPage() {
+export default function CricketPage() {
   return (
     <div className="w-full max-w-7xl mx-auto px-4 md:px-6 py-8 select-none">
       <div className="w-full flex flex-col lg:flex-row gap-8">
@@ -26,13 +26,13 @@ export default function CricketBettingPage() {
           {/* Main Title Banner */}
           <section className="w-full bg-[#0c1322] border border-[#00C853]/10 rounded-3xl p-6 md:p-8 flex flex-col gap-4 shadow-lg shadow-black">
             <h1 className="text-[#AEEA00] font-black text-2xl md:text-3xl tracking-wide leading-tight">
-              Cricket Betting Online — Premium Odds & Live Feeds
+              Cricket Online — Premium Odds & Live Feeds
             </h1>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              Place your cricket bets with India's most trusted betting exchange. We provide competitive pre-match and live ball-by-ball odds across every single professional cricket league on earth. Enjoy high limits, zero commission fees on standard winnings, and instant deposits starting at just ₹100.
+              Place your cricket bets with India's most trusted exchange. We provide competitive pre-match and live ball-by-ball odds across every single professional cricket league on earth. Enjoy high limits, zero commission fees on standard winnings, and instant deposits starting at just ₹100.
             </p>
             <div className="pt-2">
-              <ConicButton text="Start Cricket Betting Now" />
+              <ConicButton text="Start Cricket Now" />
             </div>
           </section>
 
@@ -49,7 +49,7 @@ export default function CricketBettingPage() {
               Why Bet on Cricket at Reddy Anna Book?
             </h3>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed font-semibold">
-              Our betting engine updates session odds and ball outcomes in real-time, giving you the edge on:
+              Our engine updates session odds and ball outcomes in real-time, giving you the edge on:
             </p>
             <ul className="text-gray-300 text-sm md:text-base flex flex-col gap-2 font-semibold pl-4 list-disc">
               <li>IPL ball-by-ball match sessions & player outcome props.</li>

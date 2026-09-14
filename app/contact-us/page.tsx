@@ -6,7 +6,7 @@ import { CONFIG } from "@/utils/config";
 
 export const metadata: Metadata = {
   title: "Contact Us | 24/7 WhatsApp Support | Reddy Anna Book",
-  description: "Get instant help from Reddy Anna Book support 24/7 via WhatsApp for ID creation, deposits and betting queries.",
+  description: "Get instant help from Reddy Anna Book support 24/7 via WhatsApp for ID creation, deposits and queries.",
   alternates: { canonical: "https://reddybookies.com/contact-us" },
 };
 
@@ -29,7 +29,7 @@ export default function ContactUsPage() {
               Contact Reddy Anna Book — 24/7 Human Support
             </h1>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              When you have questions about your online cricket betting ID, wallet deposits, payout statuses, or live match session updates, you get a real human response instantly. We do not use annoying automated chatbots or endless ticketing queues. Connect to our official agents directly.
+              When you have questions about your online cricket ID, wallet deposits, payout statuses, or live match session updates, you get a real human response instantly. We do not use annoying automated chatbots or endless ticketing queues. Connect to our official agents directly.
             </p>
           </section>
 

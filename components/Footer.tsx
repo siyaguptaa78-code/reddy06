@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
             About Reddy Anna Book
           </h4>
           <p className="text-gray-300 text-sm leading-relaxed">
-            Since 2010, Reddy Anna Book has provided online betting service in
+            Since 2010, Reddy Anna Book has provided online service in
             India. Join our trusted 200+ branches network and Get authorised ID.
             Create Reddy Anna Online Book id in 2 minutes. No KYC, no
             documentation, instant approval.
@@ -92,7 +92,7 @@ export const Footer: React.FC = () => {
           © {new Date().getFullYear()} Reddy Anna Book. All Rights Reserved.
         </p>
         <p className="max-w-md text-center md:text-right leading-normal text-[10px]">
-          Warning: Online betting and gambling carry a financial risk. Play
+          Warning: Online and gambling carry a financial risk. Play
           responsibly and only if you are 18+ years of age. Certified secure
           connection under SSL encryption.
         </p>

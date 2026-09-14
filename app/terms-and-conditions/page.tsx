@@ -4,7 +4,7 @@ import { Sidebar } from "@/components/Sidebar";
 
 export const metadata: Metadata = {
   title: "Terms and Conditions | Reddy Anna Book",
-  description: "Read the Reddy Anna Book terms and conditions governing use of our official cricket betting platform.",
+  description: "Read the Reddy Anna Book terms and conditions governing use of our official cricket platform.",
   alternates: { canonical: "https://reddybookies.com/terms-and-conditions" },
 };
 

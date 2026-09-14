@@ -6,7 +6,7 @@ import { ConicButton } from "@/components/ConicButton";
 
 export const metadata: Metadata = {
   title: "Free Demo ID | Try Reddy Anna Book Risk-Free",
-  description: "Get a free Reddy Anna Demo ID and explore cricket betting and live casino risk-free.",
+  description: "Get a free Reddy Anna Demo ID and explore cricket and live casino risk-free.",
   alternates: { canonical: "https://reddybookies.com/reddy-anna-id/demo-id" },
 };
 
@@ -26,13 +26,13 @@ export default function DemoIdPage() {
           {/* Main Title Banner */}
           <section className="w-full bg-[#0c1322] border border-[#00C853]/10 rounded-3xl p-6 md:p-8 flex flex-col gap-4 shadow-lg shadow-black">
             <h1 className="text-[#AEEA00] font-black text-2xl md:text-3xl tracking-wide leading-tight">
-              Reddy Anna Demo ID — Explore India's Premier Betting Platform Without Risking a Single Rupee
+              Reddy Anna Demo ID — Explore India's Premier Platform Without Risking a Single Rupee
             </h1>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              The single biggest barrier for new sports bettors in India is not motivation it is unfamiliarity. The fear of depositing real money onto a platform you have never used before, navigating markets you do not fully understand, and placing bets without first experiencing how the interface works is completely rational. This is exactly why Reddy Anna created the Demo ID—a full-featured, risk-free simulation of the live betting platform that lets you explore everything Reddy Anna offers without committing a single rupee.
+              The single biggest barrier for new sports bettors in India is not motivation it is unfamiliarity. The fear of depositing real money onto a platform you have never used before, navigating markets you do not fully understand, and placing bets without first experiencing how the interface works is completely rational. This is exactly why Reddy Anna created the Demo ID—a full-featured, risk-free simulation of the live platform that lets you explore everything Reddy Anna offers without committing a single rupee.
             </p>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              Your Reddy Anna Demo ID is not a stripped-down preview or a marketing gimmick. It is a functional replica of the real platform complete with live odds feeds, the full market menu, the Bet Builder, the Statistics Hub, and virtual trial points to let you practice betting.
+              Your Reddy Anna Demo ID is not a stripped-down preview or a marketing gimmick. It is a functional replica of the real platform complete with live odds feeds, the full market menu, the Bet Builder, the Statistics Hub, and virtual trial points to let you practice.
             </p>
             <div className="pt-2">
               <ConicButton text="Get Your Free Demo ID Now" />
@@ -50,7 +50,7 @@ export default function DemoIdPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
                 {
-                  title: "Practice IPL Betting",
+                  title: "Practice IPL",
                   desc: "Learn session bets, ball-by-ball markets, match winners, and prop bets during active IPL live events."
                 },
                 {
@@ -58,7 +58,7 @@ export default function DemoIdPage() {
                   desc: "Explore card games like Teen Patti, Andar Bahar, Roulette, and Blackjack tables before placing actual stakes."
                 },
                 {
-                  title: "Test Betting Strategies",
+                  title: "Test Strategies",
                   desc: "Test backing and laying outcomes on the Reddy Anna Tiger and Sky Exchange environments risk-free."
                 }
               ].map((feat, idx) => (

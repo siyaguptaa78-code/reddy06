@@ -4,8 +4,8 @@ import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
 
 export const metadata: Metadata = {
-  title: "Cricket Betting ID | Official Reddy Anna Cricket ID | Instant Delivery",
-  description: "Get your official Reddy Anna Cricket Betting ID instantly via WhatsApp.",
+  title: "Cricket ID | Official Reddy Anna Cricket ID | Instant Delivery",
+  description: "Get your official Reddy Anna Cricket ID instantly via WhatsApp.",
   alternates: { canonical: "https://reddybookies.com/reddy-anna-id/cricket-id" },
 };
 
@@ -25,10 +25,10 @@ export default function CricketIdPage() {
           {/* Main Title Banner */}
           <section className="w-full bg-[#0c1322] border border-[#00C853]/10 rounded-3xl p-6 md:p-8 flex flex-col gap-4 shadow-lg shadow-black">
             <h1 className="text-[#AEEA00] font-black text-2xl md:text-3xl tracking-wide leading-tight">
-              Official Reddy Anna Cricket Betting ID Provider
+              Official Reddy Anna Cricket ID Provider
             </h1>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              Cricket isn't just a sport in India it is a national passion. And when it comes to online cricket betting, nothing matches the trust, security, and performance of a verified Reddy Anna Cricket ID. Millions of Indian fans rely on Reddy Anna Book for instant cricket betting accounts, high betting limits, ball-by-ball odds coverage, and lightning-fast withdrawal processing.
+              Cricket isn't just a sport in India it is a national passion. And when it comes to online cricket, nothing matches the trust, security, and performance of a verified Reddy Anna Cricket ID. Millions of Indian fans rely on Reddy Anna Book for instant cricket accounts, high limits, ball-by-ball odds coverage, and lightning-fast withdrawal processing.
             </p>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
               Your cricket ID gives you instant access to all major local and international cricket tournaments, including the Indian Premier League (IPL), T20 World Cup, ICC Cricket World Cup, Ashes Series, Big Bash League (BBL), Pakistan Super League (PSL), and many others.
@@ -38,10 +38,10 @@ export default function CricketIdPage() {
             </div>
           </section>
 
-          {/* Section: Cricket Betting Markets */}
+          {/* Section: Cricket Markets */}
           <section className="w-full bg-[#0c1322] border border-[#00C853]/10 rounded-3xl p-6 md:p-8 flex flex-col gap-6">
             <h2 className="text-[#AEEA00] font-black text-xl md:text-2xl tracking-wide border-b border-[#00C853]/10 pb-2">
-              🏏 Extensive Cricket Betting Markets
+              🏏 Extensive Cricket Markets
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
@@ -50,16 +50,16 @@ export default function CricketIdPage() {
                   desc: "Place your bets on Match Winner, Top Batsman, Top Bowler, Total Sixes, and First Over Runs well before the game starts with competitive odds."
                 },
                 {
-                  title: "Live Session Betting",
+                  title: "Live Session",
                   desc: "Wager live on active sessions (e.g. 6-overs, 10-overs runs), player-by-player runs, ball-by-ball events, and live fall of wickets."
                 },
                 {
-                  title: "Betting Exchange",
+                  title: "Exchange",
                   desc: "Utilize backing and laying models on our Tiger and Sky Exchange environments to lock in profits by trading live cricket odds."
                 },
                 {
                   title: "IPL Special Promotions",
-                  desc: "Get reload match cashbacks, daily free betting tokens, and special tournament leadership board multipliers."
+                  desc: "Get reload match cashbacks, daily free tokens, and special tournament leadership board multipliers."
                 }
               ].map((mkt, idx) => (
                 <div key={idx} className="bg-[#05080f] p-5 rounded-2xl border border-[#00C853]/5 shadow-md">
@@ -73,7 +73,7 @@ export default function CricketIdPage() {
           {/* How to Deposit & Start */}
           <section className="w-full bg-[#0c1322] border border-[#00C853]/10 rounded-3xl p-6 md:p-8 flex flex-col gap-4 text-center md:text-left">
             <h3 className="text-[#AEEA00] font-black text-xl md:text-2xl tracking-wide mb-2">
-              Start Your Cricket Betting Journey
+              Start Your Cricket Journey
             </h3>
             <p className="text-gray-200 text-sm md:text-base max-w-xl font-semibold leading-relaxed">
               Deposits are instant starting at just ₹100, and withdrawals arrive back in your local bank account within 2-4 hours. Contact our official WhatsApp support agents now and get your verified ID created in under 60 seconds!

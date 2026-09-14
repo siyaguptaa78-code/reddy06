@@ -5,12 +5,12 @@ import { ConicButton } from "@/components/ConicButton";
 import { MatchList } from "@/components/MatchList";
 
 export const metadata: Metadata = {
-  title: "Tennis Betting Online | Live Grand Slam Odds | Reddy Anna Book",
+  title: "Tennis Online | Live Grand Slam Odds | Reddy Anna Book",
   description: "Bet on Wimbledon, US Open and ATP matches with Reddy Anna Book.",
   alternates: { canonical: "https://reddybookies.com/reddy-anna-sports/tennis-betting" },
 };
 
-export default function TennisBettingPage() {
+export default function TennisPage() {
   return (
     <div className="w-full max-w-7xl mx-auto px-4 md:px-6 py-8 select-none">
       <div className="w-full flex flex-col lg:flex-row gap-8">
@@ -26,13 +26,13 @@ export default function TennisBettingPage() {
           {/* Main Title Banner */}
           <section className="w-full bg-[#0c1322] border border-[#00C853]/10 rounded-3xl p-6 md:p-8 flex flex-col gap-4 shadow-lg shadow-black">
             <h1 className="text-[#AEEA00] font-black text-2xl md:text-3xl tracking-wide leading-tight">
-              Tennis Betting Online — Grand Slams, ATP, & WTA Tournaments
+              Tennis Online — Grand Slams, ATP, & WTA Tournaments
             </h1>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              Bet on global professional tennis tournaments with highly competitive odds. Whether it's Wimbledon, the US Open, French Open, Australian Open, ATP Tours, or WTA events, we provide extensive tennis betting coverage. Place your bets on Match Winner, Set Winner, Total Games, Handicap, and live point-by-point outcomes.
+              Bet on global professional tennis tournaments with highly competitive odds. Whether it's Wimbledon, the US Open, French Open, Australian Open, ATP Tours, or WTA events, we provide extensive tennis coverage. Place your bets on Match Winner, Set Winner, Total Games, Handicap, and live point-by-point outcomes.
             </p>
             <div className="pt-2">
-              <ConicButton text="Start Tennis Betting Now" />
+              <ConicButton text="Start Tennis Now" />
             </div>
           </section>
 
@@ -46,7 +46,7 @@ export default function TennisBettingPage() {
           {/* Info Panels */}
           <section className="w-full bg-[#0c1322] border border-[#00C853]/10 rounded-3xl p-6 md:p-8 flex flex-col gap-4">
             <h3 className="text-[#AEEA00] font-black text-xl md:text-2xl">
-              Tennis Betting Exchange Features
+              Tennis Exchange Features
             </h3>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed font-semibold">
               Enjoy active live tennis trading and swift withdrawals with your Reddy Anna account:

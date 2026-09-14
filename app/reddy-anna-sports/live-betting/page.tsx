@@ -5,12 +5,12 @@ import { ConicButton } from "@/components/ConicButton";
 import { MatchList } from "@/components/MatchList";
 
 export const metadata: Metadata = {
-  title: "Live Betting | In-Play Sports Odds | Reddy Anna Book",
+  title: "Live | In-Play Sports Odds | Reddy Anna Book",
   description: "Bet in real-time on live sports with in-play cricket, football and tennis odds on Reddy Anna Book.",
   alternates: { canonical: "https://reddybookies.com/reddy-anna-sports/live-betting" },
 };
 
-export default function LiveBettingPage() {
+export default function LivePage() {
   return (
     <div className="w-full max-w-7xl mx-auto px-4 md:px-6 py-8 select-none">
       <div className="w-full flex flex-col lg:flex-row gap-8">
@@ -26,13 +26,13 @@ export default function LiveBettingPage() {
           {/* Main Title Banner */}
           <section className="w-full bg-[#0c1322] border border-[#00C853]/10 rounded-3xl p-6 md:p-8 flex flex-col gap-4 shadow-lg shadow-black">
             <h1 className="text-[#AEEA00] font-black text-2xl md:text-3xl tracking-wide leading-tight">
-              Live Betting Online — Real-Time Sports Trading
+              Live Online — Real-Time Sports Trading
             </h1>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              Experience the absolute thrill of real-time sports betting. With live-in-play betting, odds update dynamically with every ball bowled, goal scored, or point won. We cover live events across Cricket, Football, Tennis, Basketball, Volleyball, Badminton, and esports.
+              Experience the absolute thrill of real-time sports. With live-in-play, odds update dynamically with every ball bowled, goal scored, or point won. We cover live events across Cricket, Football, Tennis, Basketball, Volleyball, Badminton, and esports.
             </p>
             <div className="pt-2">
-              <ConicButton text="Start Live Betting Now" />
+              <ConicButton text="Start Live Now" />
             </div>
           </section>
 

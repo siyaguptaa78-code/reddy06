@@ -20,10 +20,10 @@ export default function BlogsPage() {
           {/* Main Title Banner */}
           <section className="w-full bg-[#0c1322] border border-[#00C853]/10 rounded-3xl p-6 md:p-8 flex flex-col gap-4 shadow-lg shadow-black">
             <h1 className="text-[#AEEA00] font-black text-2xl md:text-3xl tracking-wide leading-tight">
-              Reddy Anna Blogs & Betting Guides
+              Reddy Anna Blogs & Guides
             </h1>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              Welcome to the official Reddy Anna Blog portal. Here, our expert team publishes the latest betting strategies, cricket odds guides, match statistics, tournament predictions, and platform update announcements to help you maximize your success.
+              Welcome to the official Reddy Anna Blog portal. Here, our expert team publishes the latest strategies, cricket odds guides, match statistics, tournament predictions, and platform update announcements to help you maximize your success.
             </p>
           </section>
 
@@ -48,10 +48,10 @@ export default function BlogsPage() {
                 {
                   title: "How to Wager on IPL 2026 Live Sessions",
                   date: "May 24, 2026",
-                  desc: "Learn session betting strategies (6-over, 10-over runs), player outcome props, and ball-by-ball hedging systems to manage risks and lock in profits during active matches."
+                  desc: "Learn session strategies (6-over, 10-over runs), player outcome props, and ball-by-ball hedging systems to manage risks and lock in profits during active matches."
                 },
                 {
-                  title: "Understanding Betting Exchanges: Lay & Back Model",
+                  title: "Understanding Exchanges: Lay & Back Model",
                   date: "May 20, 2026",
                   desc: "A beginner's guide to trading live cricket odds on Reddy Anna Tiger & Sky Exchanges. Understand what backing and laying means, and how to operate like a bookmaker."
                 },
@@ -107,7 +107,7 @@ export default function BlogsPage() {
               Want a Practice Account First?
             </h3>
             <p className="text-gray-200 text-sm md:text-base max-w-xl font-semibold leading-relaxed">
-              Ask our official WhatsApp support agents for a FREE trial Demo ID. Explore the platform and test out these betting guides risk-free!
+              Ask our official WhatsApp support agents for a FREE trial Demo ID. Explore the platform and test out these guides risk-free!
             </p>
             <div className="pt-2">
               <ConicButton text="Get Your Free Demo ID Now" />
