@@ -1,5 +1,6 @@
 import React from "react";
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
 import { Accordion } from "@/components/Accordion";
@@ -91,7 +92,7 @@ export default function EuropeanOpen2026Page() {
               Tennis enters an important part of its 2026 season in October, with the European Open in Brussels forming part of the ATP Tour&apos;s indoor hard-court swing. The tournament is scheduled for 19–25 October 2026 and is classified as an ATP 250 event.
             </p>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              For sports followers looking ahead to the autumn tennis calendar, Reddy Anna can be used as a destination for sports-related information and updates.
+              For sports followers looking ahead to the autumn tennis calendar, <Link href="/" className="text-[#AEEA00] underline hover:text-[#00C853] transition-colors">Reddy Anna</Link> can be used as a destination for sports-related information and updates.
             </p>
             <div className="pt-2">
               <ConicButton text="Bet on European Open 2026 Live" />
