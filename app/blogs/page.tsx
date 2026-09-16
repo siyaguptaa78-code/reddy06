@@ -32,6 +32,13 @@ export default function BlogsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
                 {
+                  title: "European Open 2026: Complete Guide to the ATP Tennis Tournament",
+                  date: "September 16, 2026",
+                  desc: "The BNP Paribas Fortis European Open returns to Brussels from 19–25 October 2026 as part of the ATP Tour's indoor hard-court swing. Full guide to dates, draw sizes, venue, and what to follow.",
+                  href: "/european-open-2026-atp-guide/",
+                  buttonText: "Read Full Article"
+                },
+                {
                   title: "India Football Team Faces Major September Challenge as Panama and Brazil Friendlies Loom",
                   date: "September 4, 2026",
                   desc: "Indian football is heading towards one of its most interesting international windows of the year, with the national team preparing for a demanding sequence of fixtures against Panama and Brazil.",

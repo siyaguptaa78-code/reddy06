@@ -9,6 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/about-us`, lastModified, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/blogs`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${baseUrl}/cpl-2026-caribbean-premier-league`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${baseUrl}/european-open-2026-atp-guide`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${baseUrl}/contact-us`, lastModified, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${baseUrl}/indian-card-games`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${baseUrl}/reddy-anna-id/cricket-id`, lastModified, changeFrequency: 'weekly', priority: 0.9 },
